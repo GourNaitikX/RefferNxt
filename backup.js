@@ -19,7 +19,7 @@ app.get('/get-data', async (req, res) => {
         await client.connect();
         
         // 3. Database detect aur select karna (VipBotDB default set hai)
-        const db = client.db('ENTER_COLLECTION_NAME'); 
+        const db = client.db('test'); 
         const collections = await db.listCollections().toArray();
         
         let dbDump = {};
