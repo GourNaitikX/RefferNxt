@@ -3,7 +3,7 @@ module.exports = {
     MONGO_URI: process.env.MONGO_URL || "mongodb://localhost:27017/telegram_bot",
     
     BOT_TOKEN: "8494866965:AAFalbEHT9kWU8J38DXzz_hkw-ueDFj8640",
-    ADMIN_ID: 5291409360, // <-- Yahan apni numeric Telegram ID dalo
+    ADMIN_ID: 8485002647, // <-- Yahan apni numeric Telegram ID dalo
     BOT_USERNAME: "InstaleakszBot",
     REQUIRED_REFS: 2,
     IMAGE_URL: "https://i.ibb.co/YnzthD9/x.jpg",
