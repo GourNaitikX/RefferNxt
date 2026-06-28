@@ -1,0 +1,14 @@
+{
+  "name": "telegram-refferal-bot",
+  "version": "1.0.0",
+  "description": "Production Ready Referral Bot with MongoDB",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "mongoose": "^8.4.0",
+    "express": "^9.14.2",
+    "node-telegram-bot-api": "^0.66.0"
+  }
+}
